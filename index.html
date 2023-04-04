@@ -8,11 +8,12 @@
     <meta name="Description" content="" />
 
     <style>
+      /* my style */
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Courier New", Courier, monospace;
+        font-family: Arial, Helvetica, sans-serif;
       }
       section {
         height: 100%;
@@ -26,6 +27,22 @@
         align-items: center;
       }
 
+      .ntext {
+        font: small-caps bold 24px/1 sans-serif;
+        color: #2d3e50;
+        text-shadow: 0px 0px 10px #ffffff;
+      }
+
+      /* .opacity {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.2);
+      } */
+
+      /* heart style */
       .box {
         width: 100%;
         position: absolute;
@@ -100,47 +117,12 @@
         <canvas id="pinkboard"></canvas>
       </div>
 
-      <div
-        style="
-          /* width: 100%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: rgba(255, 255, 255, 0.2); */
-        "
-      >
-        <div
-          style="
-            font: small-caps bold 24px/1 sans-serif;
-            color: #2d3e50;
-            text-shadow: 0px 0px 10px #ffffff;
-            text-align: left;
-          "
-        >
-          Sở Vãn Ninh
-        </div>
-        <div
-          style="
-            font: small-caps bold 24px/1 sans-serif;
-            color: #2d3e50;
-            text-shadow: 0px 0px 10px #ffffff;
-            padding: 1em 0.52em;
-            text-align: center;
-          "
-        >
+      <div class="opacity">
+        <div class="ntext" style="text-align: left">Sở Vãn Ninh</div>
+        <div class="ntext" style="padding: 1em 0.52em; text-align: center">
           (❤️ ω ❤️)
         </div>
-        <div
-          style="
-            font: small-caps bold 24px/1 sans-serif;
-            color: #2d3e50;
-            text-shadow: 0px 0px 10px #ffffff;
-            text-align: right;
-          "
-        >
-          Mặc Nhiên
-        </div>
+        <div class="ntext" style="text-align: right">Mặc Nhiên</div>
       </div>
     </section>
     <script>
